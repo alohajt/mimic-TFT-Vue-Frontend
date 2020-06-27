@@ -1,0 +1,147 @@
+/* 声明字体图标 这里一定要注意路径的变化 */
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?tomleg");
+  src: url("../fonts/icomoon.eot?tomleg#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?tomleg") format("truetype"),
+    url("../fonts/icomoon.woff?tomleg") format("woff"),
+    url("../fonts/icomoon.svg?tomleg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+body {
+  font-family: Spiegel, NotoSans-Medium, "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  cursor: default;
+  -webkit-tap-highlight-color: transparent;
+  color: rgb(11, 11, 12);
+  font-size: 16px;
+  /* background: linear-gradient(
+    yellow,
+    rgb(255, 208, 0),
+    orange,
+    rgb(255, 208, 0),
+    orange
+  ) !important; */
+  
+}
+/* 版心 */
+.w {
+  width: 1200px;
+  margin: 0 auto;
+  /* background-color: orange !important; */
+}
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+/* topnav start  */
+.topnav {
+  height: 60px;
+  line-height: 60px;
+  background-color: black;
+}
+
+.topnav ul li {
+  float: left;
+  height: 60px;
+  padding: 0 20px;
+}
+
+.topnav ul li:hover {
+  border-bottom: 2px solid orange;
+}
+
+.topnav ul li a {
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.riot_fist {
+  width: 60px;
+  height: 60px;
+  background: url(../images/fistsprite.png) no-repeat;
+  background-position: 0 -900px;
+  background-size: 60px;
+  transition: background-position 0.15s;
+}
+
+svg {
+  z-index: 2;
+}
+
+.riot_fist:hover {
+  background-position: 0 0;
+}
+
+.fr {
+  color: white;
+  margin: 0 10px 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.world {
+  content: '\e900';
+  font-family: icomoon;
+  margin-right: 20px;
+}
+
+/* footer  */
+footer {
+  position: relative;
+  background-color: #111111;
+}
+
+.copyright {
+  width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.copyright img {
+  width: 200px;
+}
+
+.copyright ul li,
+.copyright ul li a {
+  font-size: 12px;
+  font-weight: 700;
+  margin: 30px 0;
+  color: #7e7e7e;
+}
+
+.copyright ul li a {
+  text-decoration: underline;
+  margin: 0 5px;
+}
+
+.teen {
+  height: 180px;
+  padding-top: 20px;
+  padding-left: 400px;
+}
+
+.teen img {
+  float: left;
+  margin-right: 6px;
+}
+.teen ul {
+  float: left;
+}
+
+.teen ul li {
+  font-size: 14px;
+  font-weight: 700;
+  color: #efefef;
+  padding: 0;
+}
