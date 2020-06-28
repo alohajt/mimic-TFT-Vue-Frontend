@@ -1,0 +1,58 @@
+* {
+  font-family: serif;
+}
+
+/* header  */
+header {
+  height: 100px;
+  background-color: #000;
+}
+
+header img {
+  height: 80%;
+  margin: 10px 0 0 30px;
+}
+
+/* main  */
+.main {
+  text-align: center;
+  background: url(../images/hero-background.jpg);
+  /* background-color: rgba(255,255,255,0.2); */
+}
+
+.main h1 {
+  font-size: 10vw;
+  color: rgb(208, 168, 92);
+  color: #937341;
+}
+
+/* register form */
+.reg_form {
+  /* background-color: pink; */
+}
+
+.reg_form ul li {
+  padding: 10px 0;
+}
+
+.reg_form ul li label {
+  display: inline-block;
+  width: 130px;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.reg_form ul li .inp {
+  width: 242px;
+  height: 37px;
+  border: 1px solid #ccc;
+}
+.button {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 10px 25px;
+  background: linear-gradient(180deg, #ecc572 0, #815500);
+}
