@@ -65,7 +65,9 @@ body {
   font-size: 12px;
   font-weight: 700;
 }
-
+.tft_pc {
+  margin-bottom: 6px;
+}
 .riot_fist {
   width: 60px;
   height: 60px;

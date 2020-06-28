@@ -1,0 +1,78 @@
+* {
+  font-family: serif;
+}
+
+/* news banner  */
+.banner {
+  overflow: hidden;
+  position: relative;
+  height: 480px;
+  padding: 70px 100px 0;
+  /* background-color: pink; */
+}
+
+.banner:before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 1300px;
+  height: 1500px;
+  background: transparent
+    url(../news_images/TFT_Galaxies_Championship_Announcement_Banner.jpg) center
+    center no-repeat;
+  filter: blur(5px);
+  z-index: -1;
+  background-size: cover;
+}
+.banner_content {
+  float: left;
+  height: 340px;
+  width: 400px;
+  /* background-color: antiquewhite; */
+  padding: 100px 50px;
+  color: #fff;
+}
+
+.banner_content h2 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.banner_content p {
+  font-style: 18px;
+}
+
+.banner_image {
+  position: relative;
+
+  float: right;
+  width: 600px;
+  height: 340px;
+  /* background-color: yellow; */
+}
+
+.banner_image img {
+  width: 100%;
+}
+.banner_image .news_banner_frame {
+  position: absolute;
+  width: 95%;
+  top: -20px;
+  left: 15px;
+}
+/* .banner_image::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 340px;
+  height: 500px;
+  content: " ";
+  background: url(../news_images/news_banner_frame.png) no-repeat center;
+} */
+
+/* news list  */
+.news_list {
+  height: 800px;
+  background-color: pink;
+}

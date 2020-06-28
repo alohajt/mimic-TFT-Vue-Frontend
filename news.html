@@ -15,27 +15,48 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/news.css">
 </head>
+
 <body>
-        <!-- topnav start -->
-        <section class="topnav w">
-            <div class="fl">
-                <ul>
-                    <li><a href="#">
-                            <div class="riot_fist">
-    
-                            </div>
-                        </a></li>
-                    <li><a href="index.html"> <img src="./images/tft-desktop.png" alt=""></a></li>
-                    <li><a href="#"> {{news}} </a></li>
-                    <li><a href="#"> {{overview}} </a></li>
-                </ul>
-            </div>
-            <div class="fr world">
-                
-            </div>
-        </section>
-        <!-- topnav end -->
-            <!-- footer start  -->
+    <!-- topnav start -->
+    <section class="topnav w">
+        <div class="fl">
+            <ul>
+                <li><a href="index.html">
+                        <div class="riot_fist">
+
+                        </div>
+                    </a></li>
+                    <li><a href="index.html"> <img class="tft_pc" src="./images/tft-desktop.png" alt=""></a></li>
+                    <li><a href="news.html"> {{news}} </a></li>
+                <li><a href="#"> {{overview}} </a></li>
+            </ul>
+        </div>
+        <div class="fr world">
+            
+        </div>
+    </section>
+    <!-- topnav end -->
+
+    <!-- news banner start  -->
+    <div class="banner w">
+        <div class="banner_content">
+            <h2>TFT: GALAXIES CHAMPIONSHIP</h2>
+            <p>We are exited to announce the Teamfight Tactics: Galaxies Championship!</p>
+        </div>
+        <div class="banner_image">
+            <img src="./news_images/TFT_Galaxies_Championship_Announcement_Banner.jpg" alt="">
+            <img class="news_banner_frame" src="./news_images/news_banner_frame.png" alt="">
+        </div>
+    </div>
+    <!-- news header end  -->
+
+    <!-- news list start  -->
+    <div class="news_list w">
+
+    </div>
+    <!-- news list end  -->
+
+    <!-- footer start  -->
     <footer class="w">
         <div class="copyright">
             <a href="#"><img src="./images/riot-games-logo-png-7-transparent.png" alt=""></a>
@@ -60,5 +81,18 @@
 
     </footer>
     <!-- footer end  -->
+
+    <!-- 开发环境版本，包含了有帮助的命令行警告 -->
+    <script type="text/javascript" src="js/vue.js"></script>
+    <script type="text/javascript">
+        var vm = new Vue({
+            el: '.topnav',
+            data: {
+                news: 'NEWS',
+                overview: 'SET OVERVIEW'
+            }
+        })
+    </script>
 </body>
+
 </html>

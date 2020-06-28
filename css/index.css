@@ -35,7 +35,7 @@ button:hover {
 .showpage .vid_container {
   overflow: hidden;
   position: relative;
-  /* height: 800px; */
+  height: 800px;
   width: 1000px;
   margin: 0 auto;
 }
@@ -45,7 +45,12 @@ button:hover {
   /* height: 800px; */
   width: 100%; 
 }
-
+.showpage .news_banner_frame {
+  position: absolute;
+  width: 95%;
+  top: 30px;
+  left: 20px;
+}
 .showpage .vid_container .vid_cover {
   position: absolute;
   top: 60px;
