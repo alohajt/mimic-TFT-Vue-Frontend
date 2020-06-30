@@ -13,13 +13,15 @@ button {
   margin: 0 auto;
   font-size: 16px;
   font-weight: 700;
-  background-color: skyblue;
+  background-color: rgb(84, 84, 197);
+  color: #fff;
   transition: width 0.35s;
 }
 
 button:hover {
-  background-color: aliceblue;
+  background-color: rgb(84, 84, 197);
   width: 200px;
+  color: #fff;
 }
 
 
@@ -108,8 +110,8 @@ button:hover {
 .battle h3,
 .mobile h3,
 .emote h3 {
-  font-size: 60px;
-  font-weight: 700;
+  font-size: 80px;
+  font-weight: 1700;
   color: white;
 }
 
@@ -260,9 +262,19 @@ button:hover {
 
 .season3 .season3_intro {
   /* background-color: pink; */
+  position: relative;
   height: 550px;
   width: 1050px;
   margin: 0 auto;
+}
+
+.season3_intro .news_banner_frame {
+  position: absolute;
+  width: 90%;
+  height: 97%;
+  top: 0px;
+  left: 30px;
+  z-index: 1;
 }
 
 .season3_content {
@@ -296,6 +308,7 @@ button:hover {
   top: 180px;
   right: 30px;
   width: 470px;
+  z-index: 2;
 }
 
 /* lastest news start   */
@@ -323,14 +336,33 @@ button:hover {
   /* height: 300px; */
 }
 .news_container ul li {
+  position: relative;
   float: left;
   width: 300px;
   /* background-color: lightpink; */
-  border: 2px solid black;
+  /* border: 2px solid black; */
   text-align: center;
   margin: 0 45px;
   padding-bottom: 30px;
 }
+
+.news_container ul li .news_image {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  z-index: 2;
+}
+
+.news_container ul li .news_banner_frame {
+  position: absolute;
+  top: 18px;
+  left: 0;
+  height: 98%;
+  width: 100%;
+  z-index: 1;
+}
+
+
 
 .news_container ul li h4,
 .news_container ul li p {
@@ -341,6 +373,7 @@ button:hover {
 
 .news_container ul li h4 {
   font-size: 16px;
+  padding-top: 150px;
 }
 .news_container ul li img {
   /* height: 300px; */
@@ -368,12 +401,22 @@ button:hover {
 }
 
 .how_to_play_video {
+  position: relative;
   text-align: center;
   margin-top: 60px;
 }
 
+.how_to_play_video .news_banner_frame {
+  position: absolute;
+  top: -30px;
+  left: 70px;
+  height: 108%;
+  width: 88%;
+}
+
 /* game on  */
 .game_on {
+  padding-top: 40px;
 }
 
 .game_on_header {
@@ -388,7 +431,7 @@ button:hover {
   font-size: 60px;
 }
 
-.game_on_header button {
+/* .game_on_header button {
   display: block;
   height: 50px;
   width: 230px;
@@ -401,7 +444,7 @@ button:hover {
 
 .game_on_header button:hover {
   width: 200px;
-}
+} */
 
 .chest_board {
   position: relative;

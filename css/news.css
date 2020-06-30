@@ -45,7 +45,6 @@
 
 .banner_image {
   position: relative;
-
   float: right;
   width: 600px;
   height: 340px;
@@ -55,6 +54,7 @@
 .banner_image img {
   width: 100%;
 }
+
 .banner_image .news_banner_frame {
   position: absolute;
   width: 95%;
