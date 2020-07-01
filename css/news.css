@@ -73,6 +73,37 @@
 
 /* news list  */
 .news_list {
-  height: 800px;
+  height: 200px;
   background-color: pink;
+}
+
+/* news_upload start */
+.news_upload {
+  height: 400px;
+  background-color:antiquewhite;
+  text-align: center;
+}
+
+.updates {
+  background-color: blue;
+}
+
+#update_form #title_input {
+  width: 400px;
+  height: 20px;
+}
+
+#update_form #update_input {
+  width: 400px;
+  height: 100px;
+}
+#update_form input {
+  margin: 10px 0;
+}
+#update_form input[type="submit"],
+#update_form input[type="reset"] {
+  width: 70px;
+  height: 35px;
+  margin: 20px;
+  border-radius: 2px;
 }

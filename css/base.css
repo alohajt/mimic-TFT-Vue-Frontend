@@ -28,12 +28,8 @@ button {
 }
 
 a {
-    color: #666;
-    text-decoration: none
-}
-
-a:hover {
-    color: #c81623
+    text-decoration: none;
+    color: #fff;
 }
 
 button,

@@ -14,6 +14,7 @@
     <!-- import common css file -->
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/news.css">
+    <script defer src="./js/news.js"></script>
 </head>
 
 <body>
@@ -26,8 +27,8 @@
 
                         </div>
                     </a></li>
-                    <li><a href="index.html"> <img class="tft_pc" src="./images/tft-desktop.png" alt=""></a></li>
-                    <li><a href="news.html"> {{news}} </a></li>
+                <li><a href="index.html"> <img class="tft_pc" src="./images/tft-desktop.png" alt=""></a></li>
+                <li><a href="news.html"> {{news}} </a></li>
                 <li><a href="#"> {{overview}} </a></li>
             </ul>
         </div>
@@ -55,6 +56,22 @@
 
     </div>
     <!-- news list end  -->
+
+    <!-- news uploads start  -->
+    <div class="news_upload w">
+        <div class=updates>
+            <h3>leave an update</h3>
+            <form id="update_form">
+                <input id="title_input" type="text" name="title" placeholder="Add a title"> <br>
+                <textarea id="update_input" type="text" name="update" placeholder="Add an update" cols="50"
+                    rows="5"></textarea> <br>
+                <input type="file" value="Upload"> <br>
+                <input type="submit" value="Submit" />
+                <input type="reset" value="Reset">
+            </form>
+        </div>
+    </div>
+    <!-- news uploads end  -->
 
     <!-- footer start  -->
     <footer class="w">

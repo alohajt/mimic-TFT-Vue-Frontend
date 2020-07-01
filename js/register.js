@@ -11,7 +11,7 @@ function handleLogin(event) {
     console.log(username)
     console.log(password)
 
-    const loginBody = { user: { username:username, password:password } }
+    const loginBody =  { username:username, password:password } 
 
     fetch("http://localhost:3000/register", {
         method: "POST",
@@ -19,6 +19,10 @@ function handleLogin(event) {
             "Content-Type": "application/json"
         },
         body: JSON.stringify(loginBody)
-    })
+    }).then(respnse => respnse.json())
+        .then(result => {
+            console.log(result.token)
+            localStorage.setItem("token", result.token)
+        })
     event.target.reset();
 }
