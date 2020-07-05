@@ -2,6 +2,10 @@
   font-family: serif;
 }
 
+body {
+  background-color: #FEF6F3;
+}
+
 /* news banner  */
 .banner {
   overflow: hidden;
@@ -77,17 +81,114 @@
   background-color: pink;
 }
 
+/* lastest news start   */
+.latest_news {
+  height: 550px;
+  border-bottom: 3px solid #DDC7A1;
+  /* background-color: pink; */
+}
+
+.news_header {
+  height: 100px;
+  line-height: 100px;
+  padding: 0 30px;
+}
+.news_header > h2 {
+  float: left;
+  font-size: 40px;
+}
+
+.news_header > h5 {
+  float: right;
+  font-size: 20px;
+}
+
+.news_container {
+  /* height: 430px;
+  padding-bottom: 20px;
+  background-color: pink; */
+}
+.news_container ul li {
+  position: relative;
+  float: left;
+  width: 300px;
+  /* background-color: lightpink; */
+  /* border: 2px solid black; */
+  text-align: center;
+  margin: 0 45px;
+  padding-bottom: 30px;
+}
+
+.news_container ul li .news_image {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  z-index: 2;
+}
+
+.news_container ul li .news_banner_frame {
+  position: absolute;
+  top: 18px;
+  left: 0;
+  height: 98%;
+  width: 100%;
+  z-index: 1;
+}
+
+
+.news_container ul li h4,
+.news_container ul li p {
+  text-align: left;
+  margin: 10px 40px;
+  color: #000;
+}
+
+.news_container ul li h4 {
+  font-size: 16px;
+  padding-top: 150px;
+}
+.news_container ul li img {
+  /* height: 300px; */
+  width: 80%;
+}
+
+
+
 /* news_upload start */
 .news_upload {
-  height: 400px;
-  background-color:antiquewhite;
+  /* height: 400px; */
+  background-color: antiquewhite;
   text-align: center;
+}
+.comments_fun {
+  position: relative;
+  width: 400px;
+  margin: 0 auto ;
+}
+.comments_fun .news_banner_frame {
+  position: absolute;
+  top: 20px;
+  left: -20px;
+  height: 85%;
+  width: 110%;
+}
+
+#comments {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 30px;
 }
 
 .updates {
-  background-color: blue;
+  /* background-color: blue; */
+  height: 300px;
 }
-
+.comment_container {
+  width: 400px;
+  text-align: left;
+  margin: 0 auto;
+  /* background-color: pink; */
+}
 #update_form #title_input {
   width: 400px;
   height: 20px;
@@ -96,6 +197,7 @@
 #update_form #update_input {
   width: 400px;
   height: 100px;
+  border: none;
 }
 #update_form input {
   margin: 10px 0;
@@ -104,6 +206,8 @@
 #update_form input[type="reset"] {
   width: 70px;
   height: 35px;
-  margin: 20px;
+  margin: 20px auto 0;
   border-radius: 2px;
+  background-color: #DDC7A1;
 }
+
