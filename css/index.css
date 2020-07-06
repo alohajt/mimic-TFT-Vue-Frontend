@@ -417,6 +417,12 @@ button:hover {
   text-align: center;
   margin-top: 60px;
 }
+.how_to_play_video iframe {
+  position: absolute;
+  top: 0;
+  left: 90px;
+  z-index: 2;
+}
 
 .how_to_play_video .news_banner_frame {
   position: absolute;
@@ -424,6 +430,7 @@ button:hover {
   left: 70px;
   height: 108%;
   width: 88%;
+  z-index: 1;
 }
 
 /* game on  */
