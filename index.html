@@ -28,7 +28,7 @@
                     </a></li>
                 <li><a href="index.html"> <img class="tft_pc" src="./images/tft-desktop.png" alt=""></a></li>
                 <li><a href="./news.html"> {{news}} </a></li>
-                <li><a href="#"> {{overview}} </a></li>
+                <li><a href="store.html"> {{store}} </a></li>
             </ul>
         </div>
         <div class="fr world">
@@ -95,12 +95,13 @@
             ON 'EM</h3>
         <p>Express yourself with your Little Legend by dancing, emoting, and <br>
             generally showing off.</p>
-        <div class="emote_char">
-            <img class="furyhorn" src="./images/furyhorn.png" alt="">
-            <img class="hauntling" src="./images/hauntling.png" alt="">
-            <img class="hushtail" src="./images/hushtail.png" alt="">
-        </div>
-
+        <a href="store.html">
+            <div class="emote_char">
+                <img class="furyhorn" src="./images/furyhorn.png" alt="">
+                <img class="hauntling" src="./images/hauntling.png" alt="">
+                <img class="hushtail" src="./images/hushtail.png" alt="">
+            </div>
+        </a>
     </div>
     <!-- emote end  -->
 
@@ -140,7 +141,9 @@
     <div class="latest_news w">
         <div class="news_header">
             <h2>LASTEST NEWS</h2>
-            <h5>VIEW ALL</h5>
+            <a href="news.html">
+                <h5>VIEW ALL</h5>
+            </a>
         </div>
 
         <div class="news_container">
@@ -189,7 +192,7 @@
             <iframe width="1000" height="600" src="https://www.youtube.com/embed/-Ukq9bxiu8M" frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-                <img class="news_banner_frame" src="./news_images/news_banner_frame.png" alt="">
+            <img class="news_banner_frame" src="./news_images/news_banner_frame.png" alt="">
         </div>
     </div>
     <!-- how to play end  -->
@@ -245,7 +248,7 @@
             el: '.topnav',
             data: {
                 news: 'NEWS',
-                overview: 'SET OVERVIEW'
+                store: 'STORE'
             }
         })
     </script>

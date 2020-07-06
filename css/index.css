@@ -324,6 +324,10 @@ button:hover {
   height: 500px;
   /* background-color: pink; */
 }
+.latest_news h5 {
+  float: right;
+  color: #000;
+}
 
 .news_header {
   height: 100px;

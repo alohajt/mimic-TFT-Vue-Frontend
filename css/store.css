@@ -1,0 +1,80 @@
+body {
+  font-family: AlternateGothicW02-No2D, Arial, sans-serif;
+}
+
+/* .furyhorn start */
+.furyhorn {
+  overflow: hidden;
+  /* background-color:pink; */
+  height: 600px;
+  background: url(../store_images/TFT_Featurepage_FURYHORN_01.jpg) no-repeat;
+  background-size: cover;
+}
+
+.furyhorn_content {
+  width: 500px;
+  margin: 180px 0 0 50px;
+  /* background-color: pink; */
+  color: #fff;
+  text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 16px;
+}
+
+h3 {
+  font-size: 50px;
+}
+p {
+  font-style: 14px;
+  margin-bottom: 20px;
+}
+button {
+  color: white;
+  background-color: transparent;
+  vertical-align: middle;
+  border: 1px solid white;
+  border-radius: 2px;
+  padding: 10px;
+  font-weight: 800;
+}
+
+button:hover {
+  background-color: white;
+  color: #000;
+}
+
+/* tft mugs start  */
+.tft_mugs {
+  overflow: hidden;
+  /* background-color:pink; */
+  height: 665px;
+  background: url(../store_images/HOMEPAGE_TFT2mugs_MOBILE.jpg) no-repeat -400px
+    0px;
+  background-size: 1600px;
+  text-align: right;
+}
+
+.mugs_content {
+  width: 500px;
+  margin-top: 180px;
+  margin-left:650px;
+  /* background-color: pink; */
+  color: #fff;
+  text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 10px;
+}
+
+/* mousepad start  */
+.mousepad {
+  overflow: hidden;
+  /* background-color:pink; */
+  height: 600px;
+  background: url(../store_images/TFT_Featurepage_MOUSEPAD_03.jpg) no-repeat;
+  background-size: cover;
+}
+
+.mousepad_content {
+  width: 500px;
+  margin: 180px 0 0 50px;
+  /* background-color: pink; */
+  color: #fff;
+  text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 16px;
+
+}

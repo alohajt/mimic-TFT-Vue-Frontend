@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teamfight Tactics | League of Legends Auto-Battler Game</title>
+    <!-- website description -->
+    <meta name="description" content="Teamfight Tactics | League of Legends Auto-Battler Game" />
+    <!-- keywords -->
+    <meta name="keywords" content="Teamfight Tactics, TFT, League of Legends, LOL" />
+    <!-- import initial css file  -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- import common css file -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- import store.css file -->
+    <link rel="stylesheet" href="css/store.css">
+</head>
+
+<body>
+    <!-- topnav start -->
+    <section class="topnav w">
+        <div class="fl">
+            <ul>
+                <li><a href="index.html">
+                        <div class="riot_fist">
+                        </div>
+                    </a></li>
+                <li><a href="index.html"> <img class="tft_pc" src="./images/tft-desktop.png" alt=""></a></li>
+                <li><a href="./news.html"> {{news}} </a></li>
+                <li><a href="store.html"> {{store}} </a></li>
+            </ul>
+        </div>
+        <div class="fr world">
+            
+        </div>
+    </section>
+    <!-- topnav end -->
+
+    <!-- furyhorn start  -->
+    <div class="furyhorn w">
+        <div class="furyhorn_content">
+            <h3>Sugarcone Furyhorn Little Legends Plush</h3>
+            <p>Nothing is sweeter than combining sugarcones with a small, angry, horned beast. Our first ever Little
+                Legends plush enters the arena.</p>
+            <button>BUY NOW</button>
+        </div>
+    </div>
+    <!-- furyhorn end  -->
+
+    <!-- tft mugs start  -->
+    <div class="tft_mugs w">
+        <div class="mugs_content">
+            <h3>New Little Lengends Mugs</h3>
+            <p>Have your favorite Little Lengends join you for tea, hot chocolate, or whatever drink you fancy. New mug
+                designs have arrived for Featherknight, Molediver, Protector</p>
+            <button>SHOP NOW</button>
+        </div>
+    </div>
+    <!-- tft mugs end  -->
+
+    <!-- mousepad start  -->
+    <div class="mousepad w">
+        <div class="mousepad_content">
+            <h3>Little Legend Mousepad</h3>
+            <p>Premium double-stitched mousepad featuring the first set of Little Legends entering the fray in Teamfight
+                Tactics.</p>
+            <button>BUY NOW</button>
+        </div>
+    </div>
+    <!-- mousepad end  -->
+
+
+    <!-- footer start  -->
+    <footer class="w">
+        <div class="copyright">
+            <a href="#"><img src="./images/riot-games-logo-png-7-transparent.png" alt=""></a>
+            <ul>
+                <li>© 2020 Riot Games, Inc.</li>
+                <li>
+                    <a href="#">Privacy Notice</a>
+                    <a href="#">Terms of Service</a>
+                </li>
+            </ul>
+        </div>
+        <div class="teen">
+            <a href="index.html"><img src="./images/na-esrb.png" alt=""></a>
+            <ul>
+                <li>Blood</li>
+                <li>Fantasy Violence</li>
+                <li>Mild Suggestive Themes</li>
+                <li>Use of Alcohol and Tobacco</li>
+                <li>Online Interactions Not Rated by the ESRB</li>
+            </ul>
+        </div>
+
+    </footer>
+    <!-- footer end  -->
+
+    <!-- 开发环境版本，包含了有帮助的命令行警告 -->
+    <script type="text/javascript" src="js/vue.js"></script>
+    <script type="text/javascript">
+        var vm = new Vue({
+            el: '.topnav',
+            data: {
+                news: 'NEWS',
+                store: 'STORE'
+            }
+        })
+    </script>
+</body>

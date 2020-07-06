@@ -1,13 +1,8 @@
 const overallUpdates = document.querySelector(".comment_container")
 const titleForm = document.querySelector("#title_form")
 const updateForm = document.querySelector("#update_form")
-// im also uploading an image
-
 
 updateForm.addEventListener("submit", displayUpdate)
-
-// titleForm.addEventListener("submit", displayTitle)
-
 
 function displayUpdate(event) {
     event.preventDefault()

@@ -83,7 +83,7 @@ body {
 
 /* lastest news start   */
 .latest_news {
-  height: 550px;
+  height: 950px;
   border-bottom: 3px solid #DDC7A1;
   /* background-color: pink; */
 }
@@ -115,7 +115,7 @@ body {
   /* background-color: lightpink; */
   /* border: 2px solid black; */
   text-align: center;
-  margin: 0 45px;
+  margin: 20px 45px;
   padding-bottom: 30px;
 }
 
@@ -187,7 +187,7 @@ body {
   width: 400px;
   text-align: left;
   margin: 0 auto;
-  /* background-color: pink; */
+  background-color: #FEF6F3;
 }
 #update_form #title_input {
   width: 400px;
