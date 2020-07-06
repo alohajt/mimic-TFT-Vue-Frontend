@@ -4,7 +4,7 @@ body {
     orange,
     rgb(233, 204, 149),
     orange
-  ) ;
+  );
 }
 h3 {
   font-style: italic;
@@ -12,6 +12,8 @@ h3 {
   font-weight: 800;
   letter-spacing: 0.03em;
   color: rgb(254, 246, 243);
+  line-height: 0.85;
+  margin-top: 120px;
 }
 
 button {
@@ -20,25 +22,23 @@ button {
   width: 230px;
   margin: 0 auto;
   font-size: 16px;
-  font-weight: 700;
-  background-color: rgb(84, 84, 197);
+  font-weight: 600;
+  background-color: #3ac7ff;
   color: #fff;
   transition: width 0.35s;
 }
 
 button:hover {
-  background-color: rgb(84, 84, 197);
+  background-color: #67d4ff;
   width: 200px;
-  color: #fff;
 }
-
 
 /* showpage  */
 .showpage {
   height: 700px;
   /* background-color: orange; */
   background: url(../images/cloud-1.png) no-repeat;
-  background-size: 100%; 
+  background-size: 100%;
   text-align: center;
 }
 
@@ -53,7 +53,7 @@ button:hover {
 .showpage .vid_container video {
   margin-top: 60px;
   /* height: 800px; */
-  width: 100%; 
+  width: 100%;
 }
 .showpage .news_banner_frame {
   position: absolute;
@@ -107,6 +107,10 @@ button:hover {
   width: 120px;
 }
 
+.showpage h5 {
+  letter-spacing: 2px;
+}
+
 /* battle start  */
 .battle {
   position: relative;
@@ -127,7 +131,7 @@ button:hover {
 .mobile p,
 .emote p {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 400;
   padding: 20px 0 30px;
 }
 
@@ -208,7 +212,7 @@ button:hover {
   position: relative;
   /* background-color: yellow; */
   background: url(../images/cloud-1.png) no-repeat;
-  background-size: 100%; 
+  background-size: 100%;
   text-align: center;
 }
 
@@ -216,12 +220,22 @@ button:hover {
   padding: 50px 0;
 }
 
-@keyframes furyhorn_move{
-    0% {transform: translate(0, 0);}
-    25% {transform: translate(4px, 3px);}
-    50% {transform: translate(5px, 6px);}
-    75% {transform: translate(3px, 2px);}
-    100% {transform: translate(0,0);}
+@keyframes furyhorn_move {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(4px, 3px);
+  }
+  50% {
+    transform: translate(5px, 6px);
+  }
+  75% {
+    transform: translate(3px, 2px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
 }
 .emote_char .furyhorn {
   width: 320px;
@@ -230,12 +244,22 @@ button:hover {
   animation-iteration-count: infinite;
 }
 
-@keyframes hauntling_move{
-    0% {transform: translate(0, 0);}
-    25% {transform: translate(4px, 5px);}
-    50% {transform: translate(7px, 5px);}
-    75% {transform: translate(5px, 5px);}
-    100% {transform: translate(0,0);}
+@keyframes hauntling_move {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(4px, 5px);
+  }
+  50% {
+    transform: translate(7px, 5px);
+  }
+  75% {
+    transform: translate(5px, 5px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
 }
 .emote_char .hauntling {
   width: 320px;
@@ -244,13 +268,22 @@ button:hover {
   animation-iteration-count: infinite;
 }
 
-
-@keyframes hushtail_move{
-    0% {transform: translate(0, 0);}
-    25% {transform: translate(2px, 5px);}
-    50% {transform: translate(6px, 3px);}
-    75% {transform: translate(3px, 5px);}
-    100% {transform: translate(0,0);}
+@keyframes hushtail_move {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(2px, 5px);
+  }
+  50% {
+    transform: translate(6px, 3px);
+  }
+  75% {
+    transform: translate(3px, 5px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
 }
 .emote_char .hushtail {
   width: 380px;
@@ -265,7 +298,7 @@ button:hover {
   /* background-color: aliceblue; */
   height: 630px;
   background: url(../images/cloud-2.png) no-repeat;
-  background-size: 100%; 
+  background-size: 100%;
 }
 
 .season3 .season3_intro {
@@ -274,6 +307,10 @@ button:hover {
   height: 550px;
   width: 1050px;
   margin: 0 auto;
+}
+
+.season3 .season3_intro h3 {
+  margin: 20px 0;
 }
 
 .season3_intro .news_banner_frame {
@@ -318,11 +355,18 @@ button:hover {
   width: 470px;
   z-index: 2;
 }
+.season3_content h6 {
+  font-style: italic;
+  letter-spacing: 1px;
+}
 
 /* lastest news start   */
 .latest_news {
   height: 500px;
   /* background-color: pink; */
+}
+.latest_news h2 {
+  font-style: italic;
 }
 .latest_news h5 {
   float: right;
@@ -344,9 +388,6 @@ button:hover {
   font-size: 20px;
 }
 
-.news_container {
-  /* height: 300px; */
-}
 .news_container ul li {
   position: relative;
   float: left;
@@ -373,8 +414,6 @@ button:hover {
   width: 100%;
   z-index: 1;
 }
-
-
 
 .news_container ul li h4,
 .news_container ul li p {
@@ -410,12 +449,13 @@ button:hover {
 .how_to_play p {
   font-size: 18px;
   color: #000;
+  margin-top: 20px;
 }
 
 .how_to_play_video {
   position: relative;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 .how_to_play_video iframe {
   position: absolute;
@@ -444,26 +484,16 @@ button:hover {
 
 .game_on_header h4 {
   font-size: 18px;
+  color: #fff;
+  font-style: italic;
+  letter-spacing: 2px;
 }
 
 .game_on_header h3 {
   font-size: 60px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
-
-/* .game_on_header button {
-  display: block;
-  height: 50px;
-  width: 230px;
-  margin: 0 auto;
-  font-size: 16px;
-  font-weight: 700;
-  background-color: skyblue;
-  transition: width 0.15s;
-}
-
-.game_on_header button:hover {
-  width: 200px;
-} */
 
 .chest_board {
   position: relative;
@@ -481,12 +511,22 @@ button:hover {
   z-index: 1;
 }
 
-@keyframes layer1_move{
-    0% {transform: translate(0, 0);}
-    25% {transform: translate(4px, 8px);}
-    50% {transform: translate(10px, 3px);}
-    75% {transform: translate(8px, 5px);}
-    100% {transform: translate(0,0);}
+@keyframes layer1_move {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(4px, 8px);
+  }
+  50% {
+    transform: translate(10px, 3px);
+  }
+  75% {
+    transform: translate(8px, 5px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
 }
 .chest_board .layer1 {
   position: absolute;
@@ -498,12 +538,22 @@ button:hover {
   animation-iteration-count: infinite;
 }
 
-@keyframes layer2_move{
-    0% {transform: translate(0, 0);}
-    25% {transform: translate(6px, 4px);}
-    50% {transform: translate(-2px, 10px);}
-    75% {transform: translate(4px, -2px);}
-    100% {transform: translate(0,0);}
+@keyframes layer2_move {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(6px, 4px);
+  }
+  50% {
+    transform: translate(-2px, 10px);
+  }
+  75% {
+    transform: translate(4px, -2px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
 }
 .chest_board .layer2 {
   position: absolute;
@@ -515,12 +565,22 @@ button:hover {
   animation-iteration-count: infinite;
 }
 
-@keyframes layer3_move{
-    0% {transform: translate(0, 0);}
-    25% {transform: translate(5px, 4px);}
-    50% {transform: translate(9px, 6px);}
-    75% {transform: translate(5px, 2px);}
-    100% {transform: translate(0,0);}
+@keyframes layer3_move {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(5px, 4px);
+  }
+  50% {
+    transform: translate(9px, 6px);
+  }
+  75% {
+    transform: translate(5px, 2px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
 }
 .chest_board .layer3 {
   position: absolute;
@@ -531,5 +591,3 @@ button:hover {
   animation-duration: 10s;
   animation-iteration-count: infinite;
 }
-
-
