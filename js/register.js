@@ -1,6 +1,4 @@
 const loginForm = document.querySelector(".login");
-console.log(loginForm);
-// loginForm = null ???
 loginForm.addEventListener("submit", handleLogin);
 
 function handleLogin(event) {
@@ -8,8 +6,6 @@ function handleLogin(event) {
   const loginFormData = new FormData(event.target);
   const username = loginFormData.get("username");
   const password = loginFormData.get("password");
-  console.log(username);
-  console.log(password);
 
   const loginBody = { username: username, password: password };
 
@@ -29,10 +25,13 @@ function handleLogin(event) {
       }
     })
     .then((result) => {
-      console.log(result.token);
-        localStorage.setItem("token", result.token);
-        window.location.href = "/"
+      // console.log(result.token);
+      localStorage.setItem("token", result.token);
+      window.location.href = "/";
+      // console.log(result.token)
     })
-    .catch((error) => console.error(error));
+    .catch((error) => {
+      console.error(error);
+    });
   event.target.reset();
 }
