@@ -14,6 +14,7 @@ This webpage was built for desktop interface only and is not responsive.
 Main page: https://mimictft.web.app/  
 News page: https://mimictft.web.app/news.html  
 Store Page: https://mimictft.web.app/store.html  
+Register page: https://mimictft.web.app/register.html  
 
 # Challenges
 I ended up relearning HTML and CSS since this webpage is long and sections can have many layers of elements.
