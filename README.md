@@ -6,8 +6,8 @@ I was inspired to make it a website since I'm a gamer on TFT.
 Backend: https://github.com/alohajt/mimic-TFT-rails
 Live Website: https://mimictft.web.app/
 
-# build with
-Frontend: Vue.js, HTML, CSS.
+# Build with
+Frontend: Vue.js v2.6.11, HTML5, CSS3.
 This webpage was built for desktop interface only and is not responsive.
 
 # App Features
