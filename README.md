@@ -3,8 +3,9 @@
 mimic-TFT is a website aiming to introduce a game called Teamfight Tactics(TFT) which was developed and published by Riot Games.
 I was inspired to make it a website since I'm a gamer on TFT.  
 
-Backend: https://github.com/alohajt/mimic-TFT-rails  
+2-min Demo: https://www.youtube.com/watch?v=1Ta65KjEEQ4&t=2s  
 Live Website: https://mimictft.web.app/  
+Backend: https://github.com/alohajt/mimic-TFT-rails  
 
 # Build with
 Frontend: Vue.js v2.6.11, HTML5, CSS3.  
