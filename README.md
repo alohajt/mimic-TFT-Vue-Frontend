@@ -12,13 +12,14 @@ This webpage was built for desktop interface only and is not responsive.
 
 # App Features
 Main page: https://mimictft.web.app/  
-News/Comment page: https://mimictft.web.app/news.html 
-![Demo Gif](https://github.com/alohajt/mimic-TFT-Vue-Frontend/blob/master/images/news%2Bcomment-pregif.gif?raw=true)
+News/Comment page: https://mimictft.web.app/news.html  
+![Demo Gif](https://github.com/alohajt/mimic-TFT-Vue-Frontend/blob/master/images/news%2Bcomment-pregif.gif?raw=true)  
 
 Store Page: https://mimictft.web.app/store.html  
-![Demo Gif](https://github.com/alohajt/mimic-TFT-Vue-Frontend/blob/master/images/store-pregif.gif?raw=true)
+![Demo Gif](https://github.com/alohajt/mimic-TFT-Vue-Frontend/blob/master/images/store-pregif.gif?raw=true)       
+  
 Login/Register page: https://mimictft.web.app/register.html  
-![Demo Gif](https://github.com/alohajt/mimic-TFT-Vue-Frontend/blob/master/images/login-pregit.gif?raw=true)
+![Demo Gif](https://github.com/alohajt/mimic-TFT-Vue-Frontend/blob/master/images/login-pregit.gif?raw=true)      
 
 # Challenges
 I ended up relearning HTML and CSS since this webpage is long and sections can have many layers of elements.
